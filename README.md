@@ -1,10 +1,5 @@
 # Medical-AgenticRAG
 
-# Healthcare Assistant
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Docker](https://img.shields.io/badge/docker-supported-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-compatible-orange.svg)
 
 ## Table of Contents
 
@@ -68,6 +63,20 @@ Our Healthcare Assistant is built upon a sophisticated architecture that integra
 
 Follow these steps to build and run the Streamlit app using Docker:
 
-1. **Clone the Repository:**
-
-
+1. **Repository Cloning**:
+   ```
+   git clone https://github.com/riteshhere/Medical-AgenticRAG.git
+   cd Medical-AgenticRAG
+   ```
+2. **Build the Docker Image**:
+   ```
+   docker build -t Medical-AgenticRAG .
+   ```
+4. **Run the Docker Container**:
+   ```
+   docker run -d -p 8501:8501 --name healthcare-assistant-container healthcare-assistant
+   ```
+5. **Access the Application**:
+   ```
+   http://localhost:8501
+   ```
