@@ -1,26 +1,10 @@
 # Medical-AgenticRAG
 
-
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Using Docker](#using-docker)
-  - [Running Locally Without Docker](#running-locally-without-docker)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Project Description
 
 The **Healthcare Assistant** is an advanced application designed to provide users with accurate diagnoses and treatment recommendations based on their queries and symptoms. Leveraging the power of Large Language Models (LLMs) and innovative Retrieval-Augmented Generation (RAG) techniques, our assistant ensures concise, factually correct answers while minimizing hallucinations.
 
-![Alt Text](static/langgraph_adaptive_rag.png)
+![Alt Text](static/streamlitapp.png)
 
 ## Features
 
