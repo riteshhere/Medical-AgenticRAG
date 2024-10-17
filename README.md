@@ -20,6 +20,8 @@
 
 The **Healthcare Assistant** is an advanced application designed to provide users with accurate diagnoses and treatment recommendations based on their queries and symptoms. Leveraging the power of Large Language Models (LLMs) and innovative Retrieval-Augmented Generation (RAG) techniques, our assistant ensures concise, factually correct answers while minimizing hallucinations.
 
+![Alt Text](static/langgraph_adaptive_rag.png)
+
 ## Features
 
 - **Symptom-Based Diagnosis:** Users can input their symptoms or health-related queries to receive potential diagnoses and treatment suggestions.
@@ -27,6 +29,8 @@ The **Healthcare Assistant** is an advanced application designed to provide user
 - **Adaptive RAG Techniques:** Utilizes advanced methods such as Document Grading (CRAG), Generation Grading (Self-RAG), and Query Routing to improve information retrieval and response generation.
 - **Streamlit Interface:** Provides a user-friendly interface built with Streamlit for seamless interaction.
 - **Dockerized Deployment:** Easily deployable using Docker containers for consistent environments and simplified setup.
+
+![Alt Text](static/langgraph_adaptive_rag.png)
 
 ## Architecture
 
@@ -43,6 +47,8 @@ Our Healthcare Assistant is built upon a sophisticated architecture that integra
 
 3. **LangGraph Integration:**
    - Utilizes LangGraph to create agents that enhance the application's accuracy and responsiveness.
+
+![Alt Text](graph.png)
 
 ## Technology Stack
 
